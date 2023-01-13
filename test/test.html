@@ -1,47 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/9b207dd34b.js" crossorigin="anonymous"></script>
-  <title>Document</title>
-</head>
-<body>
-  <form>
-    <input type="submit" value="Submit" id="submitButton">
-  </form>
-  
-  <div id="gridContainer">
-    <div id="outputText"></div>
-  </div>
-  
   <style>
-    #gridContainer {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-      grid-gap: 10px;
-    }
-    #outputText {
-      grid-column: 2 / 3;
-      grid-row: 2 / 3;
-      background-color: #e6e6e6;
-      text-align: center;
-      padding: 10px;
+    table, th, td {
+      border: 1px solid black;
     }
   </style>
-  
+  <title>Dynamic Table</title>
   <script>
-    document.getElementById("submitButton").addEventListener("click", displayText);
-  
-    function displayText() {
-      event.preventDefault();
-      document.getElementById("outputText").innerHTML = "Hello World!";
-      document.getElementById("gridContainer").style.display = "grid";
+    let data = [
+      ["Data 1", "Data 2", "Data 3", "Data 4", "Data 5", "Data 6","data 7","data 8",],
+      ["Data 3", "Data 4"],
+      ["Data 5", "Data 6"]
+    ];
+
+    window.onload = function() {
+      let table = document.createElement("table");
+      let thead = document.createElement("thead");
+      let tbody = document.createElement("tbody");
+      let headers = ["route id", "flight id", "aircraft id", "flight date", "depature time", "remaining tickets", "flight status", "base price", "Book"];
+
+      // Create table headers
+      let tr = document.createElement("tr");
+      for (let i = 0; i < headers.length; i++) {
+        let th = document.createElement("th");
+        th.innerHTML = headers[i];
+        tr.appendChild(th);
+      }
+      thead.appendChild(tr);
+      table.appendChild(thead);
+
+      // Create table rows
+      for (let i = 0; i < data.length; i++) {
+        let tr = document.createElement("tr");
+        for (let j = 0; j < data[i].length; j++) {
+          let td = document.createElement("td");
+          td.innerHTML = data[i][j];
+          tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+      }
+      table.appendChild(tbody);
+
+      // Append the table to an HTML element
+      let container = document.getElementById("table-container");
+      container.appendChild(table);
     }
   </script>
-  
-  
+</head>
+<body>
+  <div id="table-container"></div>
 </body>
 </html>

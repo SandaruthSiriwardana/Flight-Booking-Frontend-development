@@ -335,6 +335,20 @@
         container.classList.remove("active");
     });
 
+    // loging function
+    function auth(){
+    var user = document.getElementById('username').value;
+    var pass = document.getElementById('password').value;
+    if(user == 'sanda' && pass == 'Sanda@2000'){
+      window.location.assign('AdminHome.html');
+      alert("logging succes");
+    }
+    else{
+      alert('Incorrect username or password');
+      return;
+    }
+  }
+
     </script>
 </body>
 </html>
