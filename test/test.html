@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/9b207dd34b.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <input type="submit" value="Submit" id="submitButton">
+  </form>
+  
+  <div id="gridContainer">
+    <div id="outputText"></div>
+  </div>
+  
+  <style>
+    #gridContainer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-gap: 10px;
+    }
+    #outputText {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+      background-color: #e6e6e6;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+  
+  <script>
+    document.getElementById("submitButton").addEventListener("click", displayText);
+  
+    function displayText() {
+      event.preventDefault();
+      document.getElementById("outputText").innerHTML = "Hello World!";
+      document.getElementById("gridContainer").style.display = "grid";
+    }
+  </script>
+  
+  
+</body>
+</html>

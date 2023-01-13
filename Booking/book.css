@@ -3,9 +3,7 @@
     font-family: 'josefin sans', sans-serif;
 }
 body{
-    background-image: url("travel-wallpaper-collage-desktop-background-for-free-hd-1920x1080-2e4i57dmv8jejhd1.jpg");
-    background-size: cover;
-    /* min-height: 200vh; */
+    background-image: url("/Booking/travel-wallpaper-collage-desktop-background-for-free-hd-1920x1080-2e4i57dmv8jejhd1.jpg");
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,12 +100,20 @@ a:hover{
 }  
 
 table {
-    margin: 20px;
-    margin-right: 10%;
-  font-family: arial, sans-serif;
-  width: 100%;
-  border-collapse: collapse;
-  float: center;
+    margin-top: 150px;
+    position: relative;
+    font-family: arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: #4c51af;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.book-button i{
+    color:white;
 }
 th, td {
   border: 3px solid #000000;
@@ -139,5 +145,11 @@ tr:nth-child(even) {
 .book-button:hover {
   background-color: #4c51af;
   color: white;
+}
+@media(max-width: 650px){
+    table{
+        width: 100%;
+    }
+    
 }
 

@@ -13,16 +13,40 @@
         B Airline <i class="fa-solid fa-plane"></i>
         <nav>
             <ul>
+                
+                <style>
+                    .user-prof{
+                        margin-top: 0px;
+                        width: 45px;
+                        height: 45px;
+                        background-color: transparent;
+                        border:none;
+                        outline: none;
+                        cursor: pointer;
+                        font-size: 30px;
+                    }
+                    .user-prof:hover{
+                        transform: scale(1.1);
+                        color:white;
+                        background-color: black;
+                    }
+                    .user-prof i{
+                        position: relative;
+                    }
+                    .user-prof i:hover{
+                        color: white;
+                    }
+                </style>
                 <li><a href="/Home/home.html">Home</a></li>
                 <li><a href="/feedback/feedback.html">Contact Us</a></li>
-                <li><a href="/Booking/book.html">My Account</a></li>
                 <li ><a class="log" href="/Home/home.html">Log out</a></li>
+                <li><a href="/Admin/AdminHome.html"><button class="user-prof" > <i class="fa fa-user-circle user-card" aria-hidden="true"></i></button></li></a>
             </ul>
         </nav>
         <i class="fa-solid fa-bars"></i>
     </div>
     <div class="wrap">
-    <div class="profile-card">
+    <div class="profile-card"> 
       <div class="image">
         <img src="/USER/male-profile-picture-vector-2051141.jpg" alt="" class="profile-img" />
       </div>
@@ -57,8 +81,8 @@
     </div></div>
   </body>
   <script>
-    const color = 'blue'; //GIVE THIS POINT TO ANY COLOR (BLUE,SILVER, GOLD)
-    const word = 'WELCOME'; //GIVE THIS POINT TO ANY WORD(NEW,GOLD OR FREQUENT)
+    const color = 'gold'; //GIVE THIS POINT TO ANY COLOR (BLUE,SILVER, GOLD)
+    const word = 'S'; //GIVE THIS POINT TO ANY WORD(NEW,GOLD OR FREQUENT)
     const box = document.getElementById('box');
     box.style.backgroundColor = color;
     box.innerText = word;
