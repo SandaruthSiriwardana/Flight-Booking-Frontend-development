@@ -12,8 +12,6 @@ Welcome to the Flight Booking System project! This web-based application is desi
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Admin Panel](#admin-panel)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -52,12 +50,23 @@ To set up the project locally:
    https://github.com/SandaruthSiriwardana/Final.git
    ```
 2. Go to the INDEX-HTML directory Run the HTML file.
+3. Log in as Admin
+   - User Name
+     ```bash
+        sanda
+     ```
+   - PW
+     ```bash
+        123123
+     ```
 
 ## Screenshots
 
 ## Admin Panel
-#### Admin Home
-![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/ea12000801f330d9afd4717d22cd2b170ee9815f/Screenshots/a0.png)
+
+**Admin Home**
+
+![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/03ba5e346817b7dced22c52971653fe1cff88938/Screenshots/a0.png)
 
 <table>
   <tr>
@@ -68,9 +77,11 @@ To set up the project locally:
   </tr>
 </table>
 
-#### Admin Passengers
+**Admin Passengers**
+
 ![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/1243b92384efe16d75ece11d24d2514febd08d76/Screenshots/a5.png)
-#### Admin  Flights
+**Admin Flights**
+
 ![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/1243b92384efe16d75ece11d24d2514febd08d76/Screenshots/a6.png)
 
 
