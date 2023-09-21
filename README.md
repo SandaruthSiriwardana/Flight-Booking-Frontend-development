@@ -9,8 +9,8 @@ Welcome to the Flight Booking System project! This web-based application is desi
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
+- [Attractive Booking System](#attractive-booking-system)
+- [User Panel](#user-panel)
 - [Admin Panel](#admin-panel)
 
 ## Features
@@ -59,8 +59,30 @@ To set up the project locally:
      ```bash
         123123
      ```
+     
+## Attractive Booking System
 
-## Screenshots
+## User Panel
+**Home page**
+![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/16539b09b059b68c1331e163073a22d9fe866207/Screenshots/INDEX/h0.png)
+
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/SandaruthSiriwardana/Final/blob/16539b09b059b68c1331e163073a22d9fe866207/Screenshots/INDEX/h1.png" width="200"></td>
+    <td align="center"><img src="https://github.com/SandaruthSiriwardana/Final/blob/16539b09b059b68c1331e163073a22d9fe866207/Screenshots/INDEX/h2.png" width="200"></td>
+    <td align="center"><img src="https://github.com/SandaruthSiriwardana/Final/blob/16539b09b059b68c1331e163073a22d9fe866207/Screenshots/INDEX/h3.png" width="200"></td>
+  </tr>
+</table>
+
+**Contact US**
+![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/16539b09b059b68c1331e163073a22d9fe866207/Screenshots/INDEX/c1.png)
+
+**Log in/ Register**
+![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/16539b09b059b68c1331e163073a22d9fe866207/Screenshots/INDEX/L1.png)
+![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/16539b09b059b68c1331e163073a22d9fe866207/Screenshots/INDEX/L2.png) 
+
+**Admin Login**
+![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/16539b09b059b68c1331e163073a22d9fe866207/Screenshots/INDEX/AL1.png)
 
 ## Admin Panel
 
