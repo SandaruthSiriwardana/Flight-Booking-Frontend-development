@@ -9,7 +9,7 @@ Welcome to the Flight Booking System project! This web-based application is desi
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Attractive Booking System](#attractive-booking-system)
+- [Modern Booking System](#modern-booking-system)
 - [User Panel](#user-panel)
 - [Admin Panel](#admin-panel)
 
@@ -60,10 +60,24 @@ To set up the project locally:
         123123
      ```
      
-## Attractive Booking System
+## Modern Booking System
+
+**Gest User Ticket Booking**
+
+<div align="center">
+  <img src="https://github.com/SandaruthSiriwardana/Final/blob/a372756aef9bec116fb8b1a859c159a591b3644b/Screenshots/Other/GB.png" alt="Your Image Alt Text">
+</div>
+
+**Register User Ticket Booking**
+
+<div align="center">
+  <img src="https://github.com/SandaruthSiriwardana/Final/blob/a372756aef9bec116fb8b1a859c159a591b3644b/Screenshots/Other/RB.png" alt="Your Image Alt Text">
+</div>
 
 ## User Panel
+
 **Home page**
+
 ![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/16539b09b059b68c1331e163073a22d9fe866207/Screenshots/INDEX/h0.png)
 
 <table>
@@ -75,13 +89,22 @@ To set up the project locally:
 </table>
 
 **Contact US**
+
 ![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/16539b09b059b68c1331e163073a22d9fe866207/Screenshots/INDEX/c1.png)
 
 **Log in/ Register**
+
 ![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/16539b09b059b68c1331e163073a22d9fe866207/Screenshots/INDEX/L1.png)
-![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/16539b09b059b68c1331e163073a22d9fe866207/Screenshots/INDEX/L2.png) 
+<div align="center">
+  <img src="https://github.com/SandaruthSiriwardana/Final/blob/16539b09b059b68c1331e163073a22d9fe866207/Screenshots/INDEX/L2.png" alt="Your Image Alt Text">
+</div>
+
+**User Profile**
+
+![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/a372756aef9bec116fb8b1a859c159a591b3644b/Screenshots/Other/user.png)
 
 **Admin Login**
+
 ![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/16539b09b059b68c1331e163073a22d9fe866207/Screenshots/INDEX/AL1.png)
 
 ## Admin Panel
@@ -102,6 +125,7 @@ To set up the project locally:
 **Admin Passengers**
 
 ![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/1243b92384efe16d75ece11d24d2514febd08d76/Screenshots/a5.png)
+
 **Admin Flights**
 
 ![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/1243b92384efe16d75ece11d24d2514febd08d76/Screenshots/a6.png)
