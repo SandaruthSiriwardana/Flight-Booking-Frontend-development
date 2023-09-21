@@ -50,6 +50,15 @@ To set up the project locally:
    https://github.com/SandaruthSiriwardana/Final.git
    ```
 2. Go to the INDEX-HTML directory Run the HTML file.
+3. Log in as Admin
+   - User Name
+     ```bash
+        sanda
+     ```
+   - PW
+     ```bash
+        123123
+     ```
 
 ## Screenshots
 
