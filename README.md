@@ -56,13 +56,23 @@ To set up the project locally:
 ## Screenshots
 
 ## Admin Panel
+#### Admin Home
+![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/ea12000801f330d9afd4717d22cd2b170ee9815f/Screenshots/a0.png)
+
 <table>
   <tr>
-    <td align="center"><img src="https://github.com/SandaruthSiriwardana/Final/blob/ea12000801f330d9afd4717d22cd2b170ee9815f/Screenshots/a1.png" width="200"></td>
+     <td align="center"><img src="https://github.com/SandaruthSiriwardana/Final/blob/ea12000801f330d9afd4717d22cd2b170ee9815f/Screenshots/a1.png" width="200"></td>
     <td align="center"><img src="https://github.com/SandaruthSiriwardana/Final/blob/ea12000801f330d9afd4717d22cd2b170ee9815f/Screenshots/a2.png" width="200"></td>
     <td align="center"><img src="https://github.com/SandaruthSiriwardana/Final/blob/ea12000801f330d9afd4717d22cd2b170ee9815f/Screenshots/a3.png" width="200"></td>
+    <td align="center"><img src="https://github.com/SandaruthSiriwardana/Final/blob/1243b92384efe16d75ece11d24d2514febd08d76/Screenshots/a4.png" width="200"></td>
   </tr>
 </table>
+
+#### Admin Passengers
+![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/1243b92384efe16d75ece11d24d2514febd08d76/Screenshots/a5.png)
+#### Admin  Flights
+![Alt text](https://github.com/SandaruthSiriwardana/Final/blob/1243b92384efe16d75ece11d24d2514febd08d76/Screenshots/a6.png)
+
 
 
 
